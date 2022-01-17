@@ -1,5 +1,6 @@
 # weather_cam_scripts
 ###### Collection of scripts used to add WS-2902C weather station data as overlays to webcam images
+![Example image](https://xenophod.org/image.jpg)
 
 ### Description
 These are some scripts and configurations I've used to create a "weather cam" using Linux/ffmpeg and an Ambient Weather WS-2902C weather station. Using ffmpeg on Linux, I capture an image, and then overlay select weather data over the image and upload to the Ambient Weather site as well as other servers. 
@@ -20,7 +21,7 @@ This script grabs an image either from a webcam or a streaming video feed, takes
 ### Configure the base station
 Follow the directions to get attached to your wifi network using the awnet app. You used to need an iOS device to configure the last page, the Android was updated to allow access to the last page. The screenshot below shows how I have it configured. All of this can be changed for your needs, just edit the config to refelct your server's IP and the scripts to reflect the port you want to use.
 
-![This is an image](https://xenophod.org/awnet.png)
+![AWNET config](https://xenophod.org/awnet.png)
 
 Once you have the base station sending data to your server, start the python script and wait for data to come in.
 
