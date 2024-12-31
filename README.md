@@ -16,7 +16,7 @@ A third, optional script makes a timelapse movie and uploads to youtube (however
 This script starts a web server that listens on the port 8088, gets the json data feed from the WS-2902C base station and writes a text file called "weather.txt" every 16 seconds for use in the image overlay.
 
 ### webcam.sh
-This script grabs an image either from a webcam or a streaming video feed, takes the weather.txt data and writes it over the image and then uploads it one or more servers.
+This script grabs an image either from a webcam or a streaming video feed, takes the weather.txt data and writes it over the image and then uploads it to one or more servers.
 
 ### Configure the base station
 Follow the directions to get attached to your wifi network using the awnet app. You used to need an iOS device to configure the last page, the Android was updated to allow access to the last page. The screenshot below shows how I have it configured. All of this can be changed for your needs, just edit the config to refelct your server's IP and the scripts to reflect the port you want to use.
